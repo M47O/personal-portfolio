@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mason Turner | Full-stack Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script defer src="./js/index.js"></script>
+    <script defer src="./js/autotyping.js"></script>
+</head>
+<!-- Change font to nunito -->
+<body class="font-nunito">
+    <!-- intro section -->
+    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden xl:shadow-[0px_12px_10px_-4px_rgba(0,0,0,0.2)]" >
+        <!-- navbar -->
+        <nav class="w-full fixed top-0 bg-white z-10">
+            <div class="container mx-auto py-5 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <img class="w-8 ml-5 sm:m-0" src="./img/M.gif" alt="">
+                    <span class="text-2xl font-bold text-indigo-400">Mason Turner</span>
+                </div>
+                <ul id="nav" class="hidden md:flex space-x-10 text-gray-600 font-bold text-md uppercase">
+                    <li class="hover:text-indigo-500">
+                        <a href="">home</a>
+                    </li>
+                    <li class="hover:text-indigo-500">
+                        <a href="">my projects</a>
+                    </li>
+                    <li class="hover:text-indigo-500">
+                        <a href="">who i am</a>
+                    </li>
+                    <li class="text-white ">
+                        <a id="navhire" class="xl:hidden p-3 bg-indigo-400 active:relative active:top-0.5 rounded" href="">hire me!</a>
+                    </li>
+                </ul>
+                <img src="./img/moon.png" class="hidden md:block w-6 h-6 cursor-pointer" alt="">
+                <div id="hamburger"class="space-y-1 md:hidden z-20 mr-5">
+                    <div class="lines w-6 h-0.5 bg-black"></div>
+                    <div class="lines w-6 h-0.5 bg-black"></div>
+                    <div class="lines w-6 h-0.5 bg-black"></div>
+                </div>
+                <ul id="menu" class=" hidden bg-indigo-500 absolute left-0 top-0 w-full p-10 rounded-b-3xl text-white text-center z-10">
+                    <li class=>
+                        <a href="">home</a>
+                    </li>
+                    <li class=>
+                        <a href="">my projects</a>
+                    </li>
+                    <li class=>
+                        <a href="">who i am</a>
+                    </li>
+                    <li class=>
+                        <a class=>hire me!</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Intro Content -->
+        <!-- ava -->
+        <img id="ava" src="./img/ava-neutral.png" alt="avatar of Mason" class="absolute -bottom-8 -right-8 h-4/6 object-cover sm:h-5/6 sm:right-0 xl:left-0 xl:h-5/6 mx-auto">
+        <!-- ava bg -->
+        <div class="hidden xl:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-indigo-900 rounded-full -z-10" ></div>
+        <!-- animated text -->
+        <p class="absolute top-1/3 left-5 text-gray-600 text-2xl sm:left-10 sm:text-4xl md:text-6xl xl:text-7xl xl:left-16 drop-shadow-md"> I'm a
+            <span id="text" class="block my-2 text-indigo-500 font-normal"></span></p>
+
+        <div class="hidden xl:flex flex-col gap-5 rounded-lg shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3 ">
+            <h1 class="text-4xl font-bold text-indigo-900">Hi, I'm Mason</h1>
+            <p class="text-gray-600 text-lg">I'm a web developer with a passion for creating intuitive, user-friendly designs that help businesses and organizations reach their goals online. With a varied background and experience working on a wide range of projects, I have a well-rounded skill set that includes front-end and back-end development and a smidge of design. I specialize in JavaScript, and I have experience working with popular frameworks like React and Angular. I'm always looking for new challenges and opportunities to use my skills to help others succeed on the web.
+            </p>
+            <a href="#contact" id="hireme" class="bg-indigo-400 hover:bg-indigo-500 active:relative active:top-1 text-white text-xl px-3 py-2 w-fit rounded-md font-semibold">Hire me!</a>
+        </div>
+    </div>
+    
+    <!-- tech -->
+    <div class="pt-20">
+        <div class="container mx-auto flex flex-col items-center pr-5">
+            <!-- top  -->
+            <div class="flex flex-col gap-3 items-center text-center">
+                <h2 class="text-indigo-500 font-bold">MY DEVELOPMENT TOOLKIT</h2>
+                <h3 class="text-3xl">A few of my most used tools</h3>
+            </div>
+            <!-- bottom -->
+            <div class="mt-7 flex flex-col items-center gap-2">
+                <h4 class="text-gray-500 font-bold my-2">FRONT-END</h4>
+                <div class="flex flex-wrap gap-3 justify-center">
+                    <div class="w-32 lg:w-44 flex flex-col items-center gap-3 shadow-lg rounded-lg relative hover:bottom-1 p-5">
+                        <img src="./img/technology/html5.png" loading="lazy" alt="HTML5" class="w-16 relative hover:bottom-1">
+                        <span class="text-gray-500">HTML5</span>
+                    </div>
+                    <div class="w-32 lg:w-44 flex flex-col items-center gap-3 shadow-lg rounded-lg relative hover:bottom-1 p-5">
+                        <img src="./img/technology/css3.png" loading="lazy" alt="CSS3" class="w-16 relative hover:bottom-1">
+                        <span class="text-gray-500">CSS3</span>
+                    </div>
+                    <div class="w-32 lg:w-44 flex flex-col items-center gap-3 shadow-lg rounded-lg relative hover:bottom-1 p-5">
+                        <img src="./img/technology/javascript.png" loading="lazy" alt="JavaScript" class="w-16 relative hover:bottom-1">
+                        <span class="text-gray-500">JavaScript</span>
+                    </div>
+                    <div class="w-32 lg:w-44 flex flex-col items-center gap-3 shadow-lg rounded-lg relative hover:bottom-1 p-5">
+                        <img src="./img/technology/react.png" loading="lazy" alt="React" class="w-16 relative hover:bottom-1">
+                        <span class="text-gray-500">React</span>
+                    </div>
+                    <div class="w-32 lg:w-44 flex flex-col items-center gap-3 shadow-lg rounded-lg relative hover:bottom-1 p-5">
+                        <img src="./img/technology/tailwind.png" loading="lazy" alt="TailwindCSS" class="w-16 relative hover:bottom-1">
+                        <span class="text-gray-500">TailwindCSS</span>
+                    </div>
+                </div>
+                <h4 class="text-gray-500 font-bold mt-10 lg:mt-32">BACK-END</h4>
+                <div class="flex flex-wrap gap-3 justify-center">
+                    <div class="w-32 lg:w-44 flex flex-col items-center gap-3 shadow-lg rounded-lg relative hover:bottom-1 p-5">
+                        <img src="./img/technology/nodejs.png" alt="NodeJS" class="w-16 relative hover:bottom-1">
+                        <span class="text-gray-500">NodeJS</span>
+                    </div>
+                    <div class="w-32 lg:w-44 flex flex-col items-center gap-3 shadow-lg rounded-lg relative hover:bottom-1 p-5">
+                        <img src="./img/technology/mongodb.png" alt="MongoDB" class="w-16 relative hover:bottom-1">
+                        <span class="text-gray-500">MongoDB</span>
+                    </div>
+                    <div class="w-32 lg:w-44 flex flex-col items-center gap-3 shadow-lg rounded-lg relative hover:bottom-1 p-5">
+                        <img src="./img/technology/express.png" alt="Express" class="w-16 relative hover:bottom-1">
+                        <span class="text-gray-500">Express</span>
+                    </div>
+                    <div class="w-32 lg:w-44 flex flex-col items-center gap-3 shadow-lg rounded-lg relative hover:bottom-1 p-5">
+                        <img src="./img/technology/PassportJS.png" alt="Passport" class="w-14 relative hover:bottom-1">
+                        <span class="text-gray-500">Passport</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+    <div class="pt-40 md:mt-16">
+        <div class="container mx-auto">
+        <!-- top -->
+            <div class="flex flex-col gap-3 items-center">
+                <h2 class="text-indigo-500 font-bold">PORTFOLIO</h2>
+                <h3 class="text-3xl">A few of my projects</h3>
+            </div>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 mt-7 sm:p-0 flex flex-wrap justify-around">
+            <div class="w-5/12  md:w-4/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-xl">Radijsje</h2>
+                    <a class="text-gray-500 hover:text-indigo-500"href="">GITHUB</a>
+                </div>
+                <img src="./img/placeholder.png" alt="" class="rounded-md" />
+            </div>
+            <div class="w-5/12 md:w-4/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-xl">Radijsje</h2>
+                    <a class="text-gray-500 hover:text-indigo-500"href="">GITHUB</a>
+                </div>
+                <img src="./img/placeholder.png" alt="" class="rounded-md" />
+            </div>
+            <div class="w-5/12  md:w-4/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-xl">Radijsje</h2>
+                    <a class="text-gray-500 hover:text-indigo-500"href="">GITHUB</a>
+                </div>
+                <img src="./img/placeholder.png" alt="" class="rounded-md" />
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div class="px-10 ">
+        <div class="container py-40 mx-auto flex flex-col-reverse lg:flex-row items-center gap-20">
+            <!-- left --> 
+            <div class="relative">
+                <img src="./img/dots.png" loading="lazy" class="h-1/4  absolute top-0 left-0 -z-10">
+                <!-- rounded-t-full rounded-b-[500%] -->
+                <div class="h-full rounded-full overflow-hidden">
+                    <img src="./img/me.png" loading="lazy" alt="" class="bg-gradient-to-br from-red-300 shadow-md">
+                </div>
+            </div>
+           <!-- right -->
+           <div class="my-auto flex flex-col gap-3">
+                <h2 class="text-indigo-500 font-bold">ABOUT ME</h2>
+                <p class="text-3xl">End-to-end expertise</p>
+                <p class="text-3xl">for dynamic web solutions</p>
+                <p class="text-gray-600 max-w-screen-md">I build digital products with a focus on user-centered design and performant back ends that make it easy for users to find what they're looking for and achieve their goals.</p>
+
+                <span class="block text-gray-500">HTML / CSS / JS</span>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-full bg-indigo-400 h-1.5 rounded-md"></div>
+                </div>
+                <span class="block text-gray-500">React / Angular</span>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-3/5 bg-indigo-400 h-1.5 rounded-md"></div>
+                </div>
+                <span class="block text-gray-500">NodeJS / Express.js / Next.js</span>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-5/6 bg-indigo-400 h-1.5 rounded-md"></div>
+                </div>
+                <!-- social links -->
+                <div class="flex mt-5 justify-center gap-7 text-3xl">
+                    <a target="_blank" href="https://twitter.com/masonturnerdev"><i class=" text-indigo-400 fa-brands fa-twitter p-2  rounded-full border-2 hover:bg-gray-200"></i></a>
+                    <a target="_blank" href="https://linkedin.com/in/masonturnerdev"><i class="text-indigo-400 fa-brands fa-linkedin p-2  rounded-full border-2 hover:bg-gray-200"></i></a>
+                    <a target="_blank" href="https://github.com/M47O"><i class=" text-indigo-400 fa-brands fa-github p-2  rounded-full border-2 hover:bg-gray-200"></i></a>
+                </div>
+                <div class="flex mt-5 justify-center gap-7 text-xl text-white">
+                    <a class="p-3 bg-indigo-400 hover:bg-indigo-500 rounded-lg shadow-lg" href="">Resume</a>
+                    <a class="p-3 bg-indigo-400 hover:bg-indigo-500 rounded-lg shadow-lg" href="">Email me</a>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <footer class="text-center">
+        <span class="text-gray-800">© 2022 Mason Turner</span>
+    </footer>
+</body>
+</html>
