@@ -1,8 +1,9 @@
 # Personal Portfolio
 This website was created to serve as a repository of my projects and offer people a reliable place to get in contact with me. It was a blast to make and taught me a lot about TailwindCSS and mobile-first development in general.
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
 
 ![Demo of personal portfolio site](img/portfolio.gif)
+
+**Link to project:** *Coming soon*
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, TailwindCSS
