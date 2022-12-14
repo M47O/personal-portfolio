@@ -3,9 +3,8 @@ var AutoTyping = function (e) { var t = {}; function r(n) { if (t[n]) return t[n
 const exampleText = [
     'Full-stack Engineer',
     'Front-end Designer',
-    'React Dev',
+    'React Developer',
     'Tailwind Enthusiast'
-
 ]
 
 const exampleTyping = new AutoTyping('#text', exampleText, {
