@@ -1,7 +1,9 @@
 # Personal Portfolio
 This website was created to serve as a repository of my projects and offer people a reliable place to get in contact with me. It was a blast to make and taught me a lot about TailwindCSS and mobile-first development in general.
 
-![Demo of personal portfolio site](img/portfolio.gif)
+<p align="center">
+<img src="img/portfolio.gif" alt="Demo of portfolio site" width="725">
+</p>
 
 **Link to project:** *Coming soon*
 ## How It's Made:
