@@ -4,7 +4,7 @@ const titles = [
     'Full-stack\nEngineer',
     'Front-end\nDesigner',
     'React\nDeveloper',
-    'Programming\nMentor'
+    'Developer\nMentor'
 ]
 
 const exampleTyping = new AutoTyping('#text', titles, {
