@@ -8,7 +8,8 @@ module.exports = {
         "sm": "480px"
       },
       fontFamily: {
-        "nunito": ['nunito', 'sans-serif']
+        "nunito": ['nunito', 'sans-serif'],
+        "montserrat": ['Montserrat', 'sans-serif']
       },
       spacing: {
         "big": "50rem"

@@ -7,3 +7,8 @@
 html,body {
     height: 100%;
 }
+
+.sideways {
+    writing-mode: vertical-lr; 
+    text-orientation: sideways;
+}
