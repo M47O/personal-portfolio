@@ -995,10 +995,6 @@ video {
   padding-top: 8rem;
 }
 
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
 .pb-3 {
   padding-bottom: 0.75rem;
 }
@@ -1140,6 +1136,10 @@ html,body {
 .sideways {
   writing-mode: vertical-lr;
   text-orientation: sideways;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .hover\:bottom-1:hover {
@@ -1410,6 +1410,10 @@ html,body {
   .lg\:py-40 {
     padding-top: 10rem;
     padding-bottom: 10rem;
+  }
+
+  .lg\:pl-5 {
+    padding-left: 1.25rem;
   }
 }
 

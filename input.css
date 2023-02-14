@@ -12,3 +12,7 @@ html,body {
     writing-mode: vertical-lr; 
     text-orientation: sideways;
 }
+
+p {
+    line-height: 1.5;
+}
