@@ -5,7 +5,7 @@ This website was created to serve as a repository of my projects and offer peopl
 <img src="img/portfolio.gif" alt="Demo of portfolio site" width="725">
 </p>
 
-**Link to project:** *Coming soon*
+**Link to project:** https://masonturner.dev/
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, TailwindCSS
