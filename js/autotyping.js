@@ -3,8 +3,8 @@ var AutoTyping = function (e) { var t = {}; function r(n) { if (t[n]) return t[n
 const titles = [
     'Full-stack\nEngineer',
     'Front-end\nDesigner',
-    'React\nDeveloper',
-    'Developer\nMentor'
+    'TypeScript\nEngineer',
+    'New Dev\nMentor'
 ]
 
 const exampleTyping = new AutoTyping('#text', titles, {
